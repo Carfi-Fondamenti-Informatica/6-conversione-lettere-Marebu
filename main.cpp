@@ -5,10 +5,10 @@ using namepsace std;
 int main(){
     char a;
     cin>>a;
-    int ris= verifica(a);
+    int ris= conversione(a);
 
     if(ris){
-        cout << convert(a) << endl;
+        cout << conversione(a) << endl;
     }else{
          cout << "errore";
     }
