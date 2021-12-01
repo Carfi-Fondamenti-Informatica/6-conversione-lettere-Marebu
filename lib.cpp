@@ -1,20 +1,13 @@
+#include <iostream>
 #include "lib.h"
-
-bool verifica(char a){
-    
-     if((a>=65 && a<=90) || (a>=97 && a<=122)){
-         return true;
-     }else{
-         return false;
-     }
-}
-
-char convert(char a){
-     if (a>=65 && a<=90){
-        a = a + 32;
-         return a;
-     }else if (a>=97 && a<=122){
-        a = a - 32;
-         return a;
-     }
+using namespace std;
+int main() {
+    char a;
+    cin >> a;
+    bool risultato = primo(a);
+    if (risultato) {
+        cout << trasformazione(a);
+    } else {
+        cout << "errore" << endl;
+    }
 }
