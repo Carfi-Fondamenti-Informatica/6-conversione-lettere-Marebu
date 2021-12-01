@@ -5,7 +5,7 @@ using namepsace std;
 int main(){
     char a;
     cin>>a;
-    int ris= conversione(a);
+    int ris= verifica(a);
 
     if(ris){
         cout << conversione(a) << endl;
