@@ -1,16 +1,13 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-
 int main() {
     char a;
-    cin>>a;
-    int ris= verifica(a);
-
-    if(ris){
-        cout << conversione(a) << endl;
-    }else{
-         cout << "errore";
+    cin >> a;
+    bool risultato = primo(a);
+    if (risultato) {
+        cout << trasformazione(a);
+    } else {
+        cout << "errore" << endl;
     }
-    return 0;
 }
