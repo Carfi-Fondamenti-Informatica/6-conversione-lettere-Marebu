@@ -1,6 +1,6 @@
 #include <iostream>
 #include "lib.h"
-using namepsace std;
+using namespace std;
 
 int main(){
     char a;
