@@ -1,7 +1,7 @@
-#ifndef LIB_LIB_H
-#define LIB_LIB_H
+#ifndef RICORSIONE_LIB_H
+#define RICORSIONE_LIB_H
 
-bool verifica(char a);
-char conversione(char a);
+bool primo(char a);
+char trasformazione(char a);
 
-#endif //LIB_LIB_H
+#endif //RICORSIONE_LIB_H
